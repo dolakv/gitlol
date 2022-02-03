@@ -27,6 +27,7 @@ namespace git
             int cislo = Convert.ToInt32(textBox1.Text);
             int cislo2 = Convert.ToInt32(textBox2.Text);
             label1.Text = Convert.ToString(cislo + cislo2);
+            label2.Text = Convert.ToString(cislo * cislo2);
         }
     }
 }
