@@ -16,5 +16,17 @@ namespace git
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int cislo = Convert.ToInt32(textBox1.Text);
+            int cislo2 = Convert.ToInt32(textBox2.Text);
+            label1.Text = Convert.ToString(cislo + cislo2);
+        }
     }
 }
